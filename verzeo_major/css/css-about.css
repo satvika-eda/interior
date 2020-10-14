@@ -1,0 +1,42 @@
+/* #leftbox>img:hover {
+  box-shadow: 0 0 2px 5px black;
+} */
+
+a{
+text-decoration:none;
+padding:13.5%;
+}
+#leftbox { 
+                float:left;  
+                width:50%; 
+                height:280%;
+ 		padding:1%;
+		text-align:justify; 
+		margin:5%; 
+            } 
+           
+          
+#rightbox{ 
+                float:right; 
+                width:50%; 
+                height:280%; 
+		padding:1%;
+		margin:5%;
+            }
+
+#carousel {
+ 	 
+        width:100%;
+        border:2px solid #222;
+        height:350px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#ffffff;
+      }
+      #carousel img {
+        visibility:hidden; 
+        cursor:pointer; 
+	width:40%;
+	height:90%;
+      }

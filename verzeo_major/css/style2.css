@@ -1,0 +1,27 @@
+body{
+    font-style: italic;
+    font-family: lucida handwriting;
+    font-weight: 900;
+    font-size: 15px;
+}
+h1{
+    text-align:center;
+    color:rgb(34, 32, 32);
+    margin:40px 0 40px;
+}
+.gallery{
+    margin: 10px 50px;
+     
+}
+.gallery img{
+    width: 260px;
+    padding: 8px;
+    transition: 0.2s;
+    
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transition: scale(1.1);
+    transform: scale(1.1);
+}
